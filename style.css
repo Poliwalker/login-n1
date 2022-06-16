@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Alfa+Slab+One&family=Anton&family=Cabin:ital,wght@1,500&family=Dancing+Script&family=Fira+Sans&family=IBM+Plex+Serif:ital,wght@1,100&family=Inconsolata:wght@300&family=Kanit:wght@500&family=Montserrat&family=Oleo+Script:wght@700&family=PT+Sans:ital@1&family=PT+Serif:ital,wght@0,700;1,400&family=Patrick+Hand&family=Poppins:ital,wght@1,600&family=Source+Code+Pro:ital,wght@1,600&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: rgb(86,49,97);
+    background: linear-gradient(0deg, rgba(86,49,97,1) 13%, rgba(144,56,109,1) 30%, rgba(204,71,120,1) 64%, rgba(233,105,119,1) 100%);
+}
+
+header{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 5rem 1rem 6rem;
+}
+
+.header1 h1{
+    color: aliceblue;
+    font-family: 'Montserrat';
+    font-size: 50px;
+    font-weight: lighter;
+}
+
+.header1 h2{
+    color: aliceblue;
+    font-family: 'Montserrat';
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.login1{
+width: 100%;
+padding-bottom: 8rem;
+}
+
+.form1-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form1-container input{
+    padding: 1.4rem 4rem;
+    background-color: #d47ba0;
+    color: aliceblue;
+    border: none;
+}
+
+.form1-container .email{
+    border-bottom: 1px solid rgb(176, 176, 176);
+    border-top: 1px solid rgb(176, 176, 176);
+}
+
+.form1-container .btn{
+    background-color: #d34b78;
+    padding: 0.8rem 8rem;
+    margin-top: 35px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.form1-container p{
+    color: aliceblue;
+}
+
+.form1-container a{
+   color: #d34b78;
+   text-decoration: none;
+}
+
+.form1-container input:focus{
+    outline: #d47ba0;
+    background-color: #d47ba0;
+}
+
+.form1-container input::placeholder{
+    color:rgb(196, 196, 196);
+    text-align:left;
+}
+
+@media (min-width:1024px){
+    .login1{
+        padding-bottom: 12.6rem;
+    }
+}

@@ -1,5 +1,6 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Alfa+Slab+One&family=Anton&family=Cabin:ital,wght@1,500&family=Dancing+Script&family=Fira+Sans&family=IBM+Plex+Serif:ital,wght@1,100&family=Inconsolata:wght@300&family=Kanit:wght@500&family=Montserrat&family=Oleo+Script:wght@700&family=PT+Sans:ital@1&family=PT+Serif:ital,wght@0,700;1,400&family=Patrick+Hand&family=Poppins:ital,wght@1,600&family=Source+Code+Pro:ital,wght@1,600&display=swap'); */
-@import url('http://fonts.cdnfonts.com/css/all-in');
+/* @import url('http://fonts.cdnfonts.com/css/all-in'); */
+@import url('https://www.mediafont.com/storage/contents/12471/bloodcrowsci.ttf');
 
 *{
     padding: 0;
@@ -30,7 +31,7 @@ header{
 
 .header1 h2{
     color: aliceblue;
-    font-family: 'All in', sans-serif;
+    font-family: 'Blood Crow Shadow Condensed Italic';
     font-size: 20px;
     font-weight: lighter;
 }
